@@ -1,0 +1,61 @@
+1. To start the git :  
+
+git init 
+
+2. Track the change Local :  
+
+git add .
+
+3. Commit the change Local :  
+
+git commit -m 'Inital Commit'
+
+4. List the Branches : 
+
+git branch
+
+5. Create the Main Branch : 
+
+git branch -M main
+
+6. Connect to Git Repository : 
+
+git remote add origin https://github.com/I074043/ExternalOData.git
+
+7. Push the Branch to Repository :
+
+ git push -u origin main
+
+8. Create a new Branch 
+
+ git branch -c my_new_branch
+
+9. Switch the Branch in BAS :
+
+ git checkout my_new_branch 
+
+10. To Ensure which branch is opened in BAS :
+
+git status
+
+11. To Commit the change locally :
+
+ git commit -m "adding new file service2.js"
+
+12. Push the Change to Repository :
+
+ git push origin HEAD /git push -u origin my_new_branch 
+
+13. Merge the Sub Branch to main :
+
+ git checkout main-> git merge my_new_branch ->git push -u origin main 
+
+14 Delete the Branch : 
+
+ git branch -d my_new_branch-> git push origin --delete "my_new_branch"
+
+ 15. Get the log details about commits :
+
+ git log
+
+ 
