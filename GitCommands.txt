@@ -58,4 +58,10 @@ git status
 
  git log
 
- 
+16. Get the Commit ID :
+
+git log --oneline
+
+21a618d (HEAD -> my_new_branch, origin/my_new_branch) git commands added
+325da42 (origin/main, origin/HEAD, main) adding new file service2.js
+51bad12 Inital Commit
